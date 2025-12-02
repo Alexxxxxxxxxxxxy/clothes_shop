@@ -1,0 +1,25 @@
+/* 谷歌字体 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap');
+/* tailwind设置 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 谷歌字体 */
+.noto-serif-sc {
+  font-family: "Noto Serif SC", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+body{
+  margin: 0 5rem;
+}
+*{
+    font-family: Outfit;
+    box-sizing: border-box;
+}
+
+/* 导航下划线 */
+a.active hr{
+    display: block;
+}

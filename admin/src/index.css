@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 谷歌字体 */
+.long-cang {
+  font-family: "Long Cang", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Long Cang", cursive ;
+}
+
+.active{
+  border-bottom: 2px solid black;
+  transition: 0.2s ease-in-out;
+}
