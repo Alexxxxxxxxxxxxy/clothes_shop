@@ -21,3 +21,9 @@
   border-bottom: 2px solid black;
   transition: 0.2s ease-in-out;
 }
+
+select,input,textarea{
+  outline: none;
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
+} 

@@ -23,9 +23,9 @@ const NavBar = () => {
 
   return (
     <div className='flex flex-row justify-between items-center mx-10 mt-0 border-b border-gray-300'>
-      <Link to='add'><img src={logo} alt="logo" className='w-[max(10%,155px)]'/></Link>
+      <Link to='/'><img src={logo} alt="logo" className='sm:h-[100px] h-[70px]'/></Link>
 
-      <div className='md:flex hidden flex-row gap-5 w-[max(80%,100px)] justify-center'>
+      <div className='md:flex hidden flex-row gap-5 w-[max(50%,100px)] justify-between'>
         <NavLink to='/add'>
           <p className='long-cang sm:text-xl text-sm'>添加商品</p>
         </NavLink>
